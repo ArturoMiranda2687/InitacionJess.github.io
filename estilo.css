@@ -36,6 +36,16 @@ main{
     width: 100vw;
     height: 100vh;
 }
+.fotopresentacion{
+    margin: 15px;
+    
+}
+.fotopresentacion img{
+    border: 3px solid silver;
+    width: 90vw;
+    height: auto;
+    object-fit: cover;
+}
 .hojas{
     position: absolute;
     left: 0;
@@ -298,11 +308,15 @@ main{
 .mregalos{
     width: 200px;
     height: 200px;
-    border-radius: 50px;
-    background: #f5deb3;
-    box-shadow:  20px 20px 60px #d0bd98,
-             -20px -20px 60px #ffffce;
+    margin-top: 15px;
+    border-radius: 48px;
+    background: #F7F1E5;
+    box-shadow:  -25px -25px 96px #b2aea5,
+             25px 25px 96px #ffffff;
     border: 0;
+}
+.mregalos:hover{
+    transform: scale(1.2);
 }
 .padremapa{
     display: flex;
