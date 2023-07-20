@@ -59,245 +59,479 @@ main{
     width: 30px;
     height: 30px;
 }
-.ho1, .ho3, .ho5, .ho25, .ho26, .ho27, .ho28, .ho29, .ho30, .ho31, .ho32, .ho33, .ho34, .ho35, .ho36, .ho37, .ho38, .ho39, .ho40, .ho41, .ho42, .ho43, .ho44, .ho45{
+.ho1,.ho2,.ho3,.ho4,.ho5,.ho6,.ho7,.ho8,.ho9,.ho10,.ho11,.ho12,.ho13,.ho14,.ho15,.ho16,.ho17,.ho18,.ho19,.ho20,.ho21,.ho22,.ho23,.ho24,.ho25,.ho26,.ho27,.ho28,.ho29,.ho30,.ho31,.ho32,.ho33,.ho34,.ho35,.ho36,.ho37,.ho38,.ho39,.ho40,.ho41,.ho42,.ho43,.ho44,.ho45,.ho46,.ho47,.ho48,.ho49,.ho50{
     height: 100%;
     width: 100%;
     transform: translateZ(3px) scale(0.3);
     transform-origin: 50%;
 }
-.ho2, .ho4, .ho6, .ho7, .ho8, .ho9, .ho10, .ho16, .ho17, .ho18, .ho19, .ho20, .ho21, .ho22, .ho23, .ho24{
+.ho51,.ho52,.ho53,.ho54,.ho55,.ho56,.ho57,.ho58,.ho59,.ho60,.ho61,.ho62,.ho63,.ho64,.ho65,.ho66,.ho67,.ho68,.ho69,.ho70,.ho71,.ho72,.ho73,.ho74,.ho75,.ho76,.ho77,.ho78,.ho79 .ho80{
     height: auto;
     width: 60%;
     transform: translateZ(6px) scale(0.33);
     transform-origin: 50%;
 }
-.ho11, .ho12, .ho13, .ho14, .ho15{
+.ho81,.ho82,.ho83,.ho84,.ho85,.ho86,.ho87,.ho88,.ho89,.ho90{
     width: 50%;
     transform-origin: 50%;
     transform-style: preserve-3d;
     transform: translateZ(7px) scale(.9);
 }
-.ho1{ /* -110 a 110*/
+.ho1, .ho3, .ho5, .ho25, .ho26, .ho27, .ho28, .ho29, .ho30, .ho31, .ho32, .ho33{
+    rotate: 45deg;
+}
+.ho2, .ho4, .ho6, .ho7, .ho8, .ho9, .ho10, .ho16{
+    rotate: 270deg;
+}
+.ho82,.ho84,.ho86,.ho88,.ho90{
+    rotate: 270deg;
+}
+.ho1{ /*  width -110 a 110 height 0 a 2100*/
     left: -110px;
-    bottom: -100px;
+    bottom: 0px;
+    position: absolute;
+}
+.ho2{
+    left: 5px;
+    bottom: -40px;
     position: absolute;
 }
 .ho3{
-    left: 5px;
-    bottom: -360px;
+    left: 110px;
+    bottom: -80px;
+    position: absolute;
+}
+.ho4{
+    left: 180px;
+    bottom: -120px;
     position: absolute;
 }
 .ho5{
-    left: 110px;
-    bottom: -800px;
-    position: absolute;
-}
-.ho25{
-    left: 180px;
-    bottom: -105px;
-    position: absolute;
-}
-.ho26{
     left: 100px;
-    bottom: -600px;
+    bottom: -160px;
     position: absolute;
 }
-.ho27{
+.ho6{
     left: -90px;
     bottom: -200px;
     position: absolute;
 }
-.ho28{
+.ho7{
     left: 85px;
-    bottom: -400px;
+    bottom: -240px;
     position: absolute;
 }
-.ho29{
+.ho8{
     left: -50px;
-    bottom: -725px;
+    bottom: -280px;
     position: absolute;
 }
-.ho30{
+.ho9{
     left: 60px;
-    bottom: -300px;
+    bottom: -320px;
     position: absolute;
 }
-.ho31{
+.ho10{
     left: 62px;
-    bottom: -187px;
+    bottom: -360px;
     position: absolute;
 }
-.ho32{
+.ho11{
     left: 45px;
-    bottom: -100px;
-    position: absolute;
-}
-.ho33{
-    left: -42px;
-    bottom: -250px;
-    position: absolute;
-}
-.ho34{
-    left: -110px;
-    bottom: -300px;
-    position: absolute;
-}
-.ho35{
-    left: 105px;
     bottom: -400px;
     position: absolute;
 }
-.ho36{
-    left: -90px;
-    bottom: -500px;
+.ho12{
+    left: -42px;
+    bottom: -440px;
     position: absolute;
 }
-.ho37{
-    left: 97px;
+.ho13{
+    left: -110px;
+    bottom: -480px;
+    position: absolute;
+}
+.ho14{
+    left: 105px;
+    bottom: -520px;
+    position: absolute;
+}
+.ho15{
+    left: -90px;
+    bottom: -560px;
+    position: absolute;
+}
+.ho16{
+    left: -90px;
     bottom: -600px;
     position: absolute;
 }
-.ho38{
-    left: -85px;
-    bottom: -750px;
+.ho17{
+    left: 97px;
+    bottom: -640px;
     position: absolute;
 }
-.ho39{
+.ho18{
+    left: -85px;
+    bottom: -680px;
+    position: absolute;
+}
+.ho19{
     left: 0px;
+    bottom: -720px;
+    position: absolute;
+}
+.ho20{
+    left: 93px;
+    bottom: -760px;
+    position: absolute;
+}
+.ho21{
+    left: -77px;
     bottom: -800px;
     position: absolute;
 }
+.ho22{
+    left: 79px;
+    bottom: -840px;
+    position: absolute;
+}
+.ho23{
+    left: -50px;
+    bottom: -880px;
+    position: absolute;
+}
+.ho24{
+    left: 110px;
+    bottom: -920px;
+    position: absolute;
+}
+.ho25{
+    left: -110px;
+    bottom: -1000px;
+    position: absolute;
+}
+.ho26{
+    left: 90px;
+    bottom: -1040px;
+    position: absolute;
+}
+.ho27{
+    left: -75px;
+    bottom: -1080px;
+    position: absolute;
+}
+.ho28{
+    left: 82px;
+    bottom: -1120px;
+    position: absolute;
+}
+.ho29{
+    left: -65px;
+    bottom: -1160px;
+    position: absolute;
+}
+.ho30{
+    left: 70px;
+    bottom: -1200px;
+    position: absolute;
+}
+.ho31{
+    left: -49px;
+    bottom: -1240px;
+    position: absolute;
+}
+.ho32{
+    left: 90px;
+    bottom: -1280px;
+    position: absolute;
+}
+.ho33{
+    left: -100px;
+    bottom: -1320px;
+    position: absolute;
+}
+.ho34{
+    left: 60px;
+    bottom: -1360px;
+    position: absolute;
+}
+.ho35{
+    left: -50px;
+    bottom: -1400px;
+    position: absolute;
+}
+.ho36{
+    left: -20px;
+    bottom: -1440px;
+    position: absolute;
+}
+.ho37{
+    left: 30px;
+    bottom: -1480px;
+    position: absolute;
+}
+.ho38{
+    left: -89px;
+    bottom: -1520px;
+    position: absolute;
+}
+.ho39{
+    left: 80px;
+    bottom: -1560px;
+    position: absolute;
+}
 .ho40{
-    left: 93px;
-    bottom: -700px;
+    left: -110px;
+    bottom: -1600px;
     position: absolute;
 }
 .ho41{
-    left: -77px;
-    bottom: -600px;
+    left: -110px;
+    bottom: -1640px;
     position: absolute;
 }
 .ho42{
-    left: 79px;
-    bottom: -500px;
+    left: -110px;
+    bottom: -1680px;
     position: absolute;
 }
 .ho43{
-    left: -50px;
-    bottom: -400px;
+    left: -110px;
+    bottom: -1720px;
     position: absolute;
 }
 .ho44{
-    left: 110px;
-    bottom: -300px;
+    left: -110px;
+    bottom: -1760px;
     position: absolute;
 }
 .ho45{
     left: -110px;
-    bottom: -780px;
+    bottom: -1800px;
     position: absolute;
 }
-.ho2{/*145 a 25*/
+.ho46{
+    left: -110px;
+    bottom: -1840px;
+    position: absolute;
+}
+.ho47{
+    left: -110px;
+    bottom: -1880px;
+    position: absolute;
+}
+.ho48{
+    left: -110px;
+    bottom: -1920px;
+    position: absolute;
+}
+.ho49{
+    left: -110px;
+    bottom: -1960px;
+    position: absolute;
+}
+.ho50{
+    left: -110px;
+    bottom: -2000px;
+    position: absolute;
+}
+.ho51{/*145 a 25*/
     left: 145px;
     bottom: -250px;
     position: absolute;
 }
-.ho4{
+.ho52{
     left: 25px;
     bottom: -350px;
     position: absolute;
 }
-.ho6{
+.ho53{
     left: 70px;
     bottom: 20%;
     position: absolute;
 }
-.ho7{
+.ho54{
     left: 30px;
     bottom: -100px;
     position: absolute;
 }
-.ho8{
+.ho55{
     left: 150px;
     bottom: -300px;
     position: absolute;
 }
-.ho9{
+.ho56{
     left: 90px;
     bottom: -400px;
     position: absolute;
 }
-.ho10{
+.ho57{
     left: 60px;
     bottom: -800px;
     position: absolute;
 }
-.ho16{
+.ho58{
     left: 30px;
     bottom: -100px;
     position: absolute;
 }
-.ho17{
+.ho59{
     left: 130px;
     bottom: -300px;
     position: absolute;
 }
-.ho18{
+.ho60{
     left: 45px;
     bottom: -400px;
     position: absolute;
 }
-.ho19{
+.ho61{
     left: 125px;
     bottom: -500px;
     position: absolute;
 }
-.ho20{
+.ho62{
     left: 50px;
     bottom: -600px;
     position: absolute;
 }
-.ho21{
+.ho63{
     left: 115px;
     bottom: -700px;
     position: absolute;
 }
-.ho22{
+.ho64{
     left: 38px;
     bottom: -250px;
     position: absolute;
 }
-.ho23{
+.ho65{
     left: 120px;
     bottom: -350px;
     position: absolute;
 }
-.ho24{
+.ho66{
     left: 42px;
     bottom: -825px;
     position: absolute;
 }
-.ho11{ /* 60 a 145*/
-    left: 60px;
-    bottom: -500px;
+.ho67{
+    left: 42px;
+    bottom: -825px;
     position: absolute;
 }
-.ho12{
+.ho68{
+    left: 42px;
+    bottom: -825px;
+    position: absolute;
+}
+.ho69{
+    left: 42px;
+    bottom: -825px;
+    position: absolute;
+}
+.ho70{
+    left: 42px;
+    bottom: -825px;
+    position: absolute;
+}
+.ho71{
+    left: 42px;
+    bottom: -825px;
+    position: absolute;
+}
+.ho72{
+    left: 42px;
+    bottom: -825px;
+    position: absolute;
+}
+.ho73{
+    left: 42px;
+    bottom: -825px;
+    position: absolute;
+}
+.ho74{
+    left: 42px;
+    bottom: -825px;
+    position: absolute;
+}
+.ho75{
+    left: 42px;
+    bottom: -825px;
+    position: absolute;
+}
+.ho76{
+    left: 42px;
+    bottom: -825px;
+    position: absolute;
+}
+.ho77{
+    left: 42px;
+    bottom: -825px;
+    position: absolute;
+}
+.ho78{
+    left: 42px;
+    bottom: -825px;
+    position: absolute;
+}
+.ho79{
+    left: 42px;
+    bottom: -825px;
+    position: absolute;
+}
+.ho80{
+    left: 42px;
+    bottom: -825px;
+    position: absolute;
+}
+.ho81{ /* 60 a 145 height -700*/
+    left: 65px;
+    bottom: -700px;
+    position: absolute;
+}
+.ho82{
     left: 145px;
     bottom: -700px;
     position: absolute;
 }
-.ho13{
+.ho83{
     left: 125px;
     bottom: -400px;
     position: absolute;
 }
-.ho14{
+.ho84{
     left: 65px;
     bottom: -300px;
     position: absolute;
 }
-.ho15{
+.ho85{
+    left: 65px;
+    bottom: -200px;
+    position: absolute;
+}
+.ho86{
+    left: 65px;
+    bottom: -200px;
+    position: absolute;
+}
+.ho87{
+    left: 65px;
+    bottom: -200px;
+    position: absolute;
+}
+.ho88{
+    left: 65px;
+    bottom: -200px;
+    position: absolute;
+}
+.ho89{
+    left: 65px;
+    bottom: -200px;
+    position: absolute;
+}
+.ho90{
     left: 65px;
     bottom: -200px;
     position: absolute;
