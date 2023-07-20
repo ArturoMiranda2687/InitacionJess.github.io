@@ -33,6 +33,10 @@ p{
 }
 a{
     text-decoration: none;
+    color: black;
+    font-family: 'Dancing Script', cursive;
+    font-size: 2rem;
+    font-weight: bold;
 }
 main{
     position: relative;
@@ -482,7 +486,7 @@ main{
 }
 .ho79{
     left: 59px;
-    bottom: -3180px;
+    bottom: -3080px;
     position: absolute;
 }
 .ho80{
