@@ -10,7 +10,7 @@ html{
 body{
     margin: 0;
     border: 0;
-    background: #f5d72c;
+    background: #F7F1E5;
     text-align: center;
 }
 h1{
@@ -304,13 +304,23 @@ main{
              -20px -20px 60px #ffffce;
     border: 0;
 }
+.padremapa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 iframe{
-    width: 450px;
+    width: 350px;
     height: 250px;
     border: 0;
-    /*allowfullscreen:"";
-    loading:lazy;
-    referrerpolicy:no-referrer-when-downgrade;*/
+    border-radius: 15px;
+    background: #F7F1E5;
+    box-shadow: -25px -25px 34px #63605c,
+                25px 25px 34px #ffffff;
+    width: 360px;
+    
+    
 }
 .separador{
     display: flex;
@@ -321,14 +331,47 @@ iframe{
     border-radius: 50%;
 }
 .padrescontenedor{
-    display: flex;
-    flex-direction: row;
+    margin: 0 10px 0 auto;
 }
 .padresella{
     display: flex;
+    gap: 15px;
 }
 .padresel{
     display: flex;
+    gap: 15px;
+}
+.mama img{
+    width: 200px;
+    aspect-ratio: 1/1;
+    border-radius: 15px;
+    object-fit: cover;
+}
+.papa img{
+    width: 200px;
+    aspect-ratio: 1/1;
+    border-radius: 15px;
+    object-fit: cover;
+}
+.nompap{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.reloj{
+    width: 20vw;
+    aspect-ratio: 1/1;
+    border-radius: 48px;
+    background: linear-gradient(45deg, #ded9ce, #fffff5);
+    box-shadow:  20px -20px 40px #c6c1b7,
+             -20px 20px 40px #ffffff;
+}
+.reloj h3{
+    font-size: 1.6rem;
+}
+.caja{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
 }
 /*.parallax{
     width: 100%;
