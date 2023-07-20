@@ -26,6 +26,7 @@ h3{
 }
 p{
     font-size: 1.6rem;
+    line-height: 1.8rem;
 }
 main{
     position: relative;
@@ -42,7 +43,7 @@ main{
 }
 .fotopresentacion img{
     border: 3px solid silver;
-    width: 90vw;
+    width: 70vw;
     height: auto;
     object-fit: cover;
 }
@@ -542,8 +543,8 @@ main{
     margin-top: 15px;
     border-radius: 48px;
     background: #F7F1E5;
-    box-shadow:  -25px -25px 96px #b2aea5,
-             25px 25px 96px #ffffff;
+    box-shadow:  -20px -20px 32px #b2aea5,
+             20px 20px 32px #ffffff;
     border: 0;
 }
 .mregalos:hover{
@@ -561,10 +562,10 @@ iframe{
     border: 0;
     border-radius: 15px;
     background: #F7F1E5;
-    box-shadow: -25px -25px 34px #63605c,
-                25px 25px 34px #ffffff;
+    box-shadow: -20px -20px 29px #63605c,
+                20px 20px 29px #ffffff;
     width: 360px;
-    
+    margin: 15px 0 15px 0;
     
 }
 .separador{
@@ -581,22 +582,32 @@ iframe{
 .padresella{
     display: flex;
     gap: 15px;
+    margin: 17px;
 }
 .padresel{
     display: flex;
     gap: 15px;
+    margin: 17px;
 }
 .mama img{
-    width: 200px;
+    width: 180px;
     aspect-ratio: 1/1;
     border-radius: 15px;
     object-fit: cover;
+    background: #F7F1E5;
+    box-shadow:  -7px -7px 8px #b2aea5,
+             7px 7px 8px #ffffff;
+    border: 0;
 }
 .papa img{
-    width: 200px;
+    width: 180px;
     aspect-ratio: 1/1;
     border-radius: 15px;
     object-fit: cover;
+    background: #F7F1E5;
+    box-shadow:  -7px -7px 8px #b2aea5,
+             7px 7px 8px #ffffff;
+    border: 0;
 }
 .nompap{
     font-size: 2rem;
