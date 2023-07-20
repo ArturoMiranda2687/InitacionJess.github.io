@@ -65,7 +65,7 @@ main{
     transform: translateZ(3px) scale(0.3);
     transform-origin: 50%;
 }
-.ho51,.ho52,.ho53,.ho54,.ho55,.ho56,.ho57,.ho58,.ho59,.ho60,.ho61,.ho62,.ho63,.ho64,.ho65,.ho66,.ho67,.ho68,.ho69,.ho70,.ho71,.ho72,.ho73,.ho74,.ho75,.ho76,.ho77,.ho78,.ho79 .ho80{
+.ho51,.ho52,.ho53,.ho54,.ho55,.ho56,.ho57,.ho58,.ho59,.ho60,.ho61,.ho62,.ho63,.ho64,.ho65,.ho66,.ho67,.ho68,.ho69,.ho70,.ho71,.ho72,.ho73,.ho74,.ho75,.ho76,.ho77,.ho78,.ho79, .ho80{
     height: auto;
     width: 60%;
     transform: translateZ(6px) scale(0.33);
@@ -77,13 +77,10 @@ main{
     transform-style: preserve-3d;
     transform: translateZ(7px) scale(.9);
 }
-.ho1, .ho3, .ho5, .ho25, .ho26, .ho27, .ho28, .ho29, .ho30, .ho31, .ho32, .ho33{
+.ho1,.ho2,.ho3,.ho5,.ho6,.ho7,.ho9,.ho10,.ho11,.ho13,.ho14,.ho15,.ho17,.ho18,.ho19,.ho21,.ho22,.ho23,.ho25,.ho26,.ho27,.ho29,.ho30,.ho31,.ho33,.ho34,.ho35,.ho37,.ho38,.ho39,.ho41,.ho42,.ho43,.ho45,.ho46,.ho47,.ho49,.ho50 {
     rotate: 45deg;
 }
-.ho2, .ho4, .ho6, .ho7, .ho8, .ho9, .ho10, .ho16{
-    rotate: 270deg;
-}
-.ho82,.ho84,.ho86,.ho88,.ho90{
+.ho51,.ho52,.ho53,.ho55,.ho56,.ho58,.ho59,.ho60,.ho62,.ho63,.ho65,.ho66,.ho68,.ho69,.ho71,.ho72,.ho74,.ho75,.ho77,.ho78, .ho80,.ho82,.ho86,.ho88 {
     rotate: 270deg;
 }
 .ho1{ /*  width -110 a 110 height 0 a 2100*/
@@ -282,258 +279,258 @@ main{
     position: absolute;
 }
 .ho40{
-    left: -110px;
+    left: -60px;
     bottom: -1600px;
     position: absolute;
 }
 .ho41{
-    left: -110px;
+    left: 110px;
     bottom: -1640px;
     position: absolute;
 }
 .ho42{
-    left: -110px;
+    left: -15px;
     bottom: -1680px;
     position: absolute;
 }
 .ho43{
-    left: -110px;
+    left: 78px;
     bottom: -1720px;
     position: absolute;
 }
 .ho44{
-    left: -110px;
+    left: -105px;
     bottom: -1760px;
     position: absolute;
 }
 .ho45{
-    left: -110px;
+    left: 35px;
     bottom: -1800px;
     position: absolute;
 }
 .ho46{
-    left: -110px;
+    left: -69px;
     bottom: -1840px;
     position: absolute;
 }
 .ho47{
-    left: -110px;
+    left: 99px;
     bottom: -1880px;
     position: absolute;
 }
 .ho48{
-    left: -110px;
+    left: -30px;
     bottom: -1920px;
     position: absolute;
 }
 .ho49{
-    left: -110px;
+    left: 70px;
     bottom: -1960px;
     position: absolute;
 }
 .ho50{
-    left: -110px;
+    left: -87px;
     bottom: -2000px;
     position: absolute;
 }
-.ho51{/*145 a 25*/
+.ho51{/*25 a 145 alto -90 a -2000 */
     left: 145px;
-    bottom: -250px;
+    bottom: -90px;
     position: absolute;
 }
 .ho52{
     left: 25px;
-    bottom: -350px;
+    bottom: -150px;
     position: absolute;
 }
 .ho53{
-    left: 70px;
-    bottom: 20%;
+    left: 77px;
+    bottom: -210px;
     position: absolute;
 }
 .ho54{
-    left: 30px;
-    bottom: -100px;
+    left: 35px;
+    bottom: -280px;
     position: absolute;
 }
 .ho55{
-    left: 150px;
-    bottom: -300px;
+    left: 121px;
+    bottom: -340px;
     position: absolute;
 }
 .ho56{
-    left: 90px;
+    left: 114px;
     bottom: -400px;
     position: absolute;
 }
 .ho57{
-    left: 60px;
-    bottom: -800px;
+    left: 112px;
+    bottom: -460px;
     position: absolute;
 }
 .ho58{
-    left: 30px;
-    bottom: -100px;
+    left: 31px;
+    bottom: -530px;
     position: absolute;
 }
 .ho59{
-    left: 130px;
-    bottom: -300px;
+    left: 65px;
+    bottom: -600px;
     position: absolute;
 }
 .ho60{
     left: 45px;
-    bottom: -400px;
+    bottom: -660px;
     position: absolute;
 }
 .ho61{
-    left: 125px;
-    bottom: -500px;
+    left: 81px;
+    bottom: -720px;
     position: absolute;
 }
 .ho62{
-    left: 50px;
-    bottom: -600px;
+    left: 51px;
+    bottom: -780px;
     position: absolute;
 }
 .ho63{
-    left: 115px;
-    bottom: -700px;
+    left: 120px;
+    bottom: -840px;
     position: absolute;
 }
 .ho64{
-    left: 38px;
-    bottom: -250px;
+    left: 107px;
+    bottom: -900px;
     position: absolute;
 }
 .ho65{
-    left: 120px;
-    bottom: -350px;
+    left: 128px;
+    bottom: -960px;
     position: absolute;
 }
 .ho66{
-    left: 42px;
-    bottom: -825px;
+    left: 110px;
+    bottom: -1020px;
     position: absolute;
 }
 .ho67{
-    left: 42px;
-    bottom: -825px;
+    left: 106px;
+    bottom: -1080px;
     position: absolute;
 }
 .ho68{
-    left: 42px;
-    bottom: -825px;
+    left: 72px;
+    bottom: -1140px;
     position: absolute;
 }
 .ho69{
-    left: 42px;
-    bottom: -825px;
+    left: 113px;
+    bottom: -1200px;
     position: absolute;
 }
 .ho70{
-    left: 42px;
-    bottom: -825px;
+    left: 72px;
+    bottom: -1260px;
     position: absolute;
 }
 .ho71{
-    left: 42px;
-    bottom: -825px;
+    left: 32px;
+    bottom: -1320px;
     position: absolute;
 }
 .ho72{
-    left: 42px;
-    bottom: -825px;
+    left: 139px;
+    bottom: -1380px;
     position: absolute;
 }
 .ho73{
-    left: 42px;
-    bottom: -825px;
+    left: 87px;
+    bottom: -1450px;
     position: absolute;
 }
 .ho74{
-    left: 42px;
-    bottom: -825px;
+    left: 30px;
+    bottom: -1520px;
     position: absolute;
 }
 .ho75{
-    left: 42px;
-    bottom: -825px;
+    left: 78px;
+    bottom: -1580px;
     position: absolute;
 }
 .ho76{
-    left: 42px;
-    bottom: -825px;
+    left: 55px;
+    bottom: -1640px;
     position: absolute;
 }
 .ho77{
-    left: 42px;
-    bottom: -825px;
+    left: 82px;
+    bottom: -1700px;
     position: absolute;
 }
 .ho78{
-    left: 42px;
-    bottom: -825px;
+    left: 44px;
+    bottom: -1760px;
     position: absolute;
 }
 .ho79{
-    left: 42px;
-    bottom: -825px;
+    left: 59px;
+    bottom: -1820px;
     position: absolute;
 }
 .ho80{
-    left: 42px;
-    bottom: -825px;
+    left: 25px;
+    bottom: -1880px;
     position: absolute;
 }
-.ho81{ /* 60 a 145 height -700*/
+.ho81{ /* 60 a 145 height -100 - 2100*/
     left: 65px;
-    bottom: -700px;
+    bottom: -100px;
     position: absolute;
 }
 .ho82{
     left: 145px;
-    bottom: -700px;
+    bottom: -350px;
     position: absolute;
 }
 .ho83{
-    left: 125px;
-    bottom: -400px;
+    left: 70px;
+    bottom: -500px;
     position: absolute;
 }
 .ho84{
-    left: 65px;
-    bottom: -300px;
+    left: 130px;
+    bottom: -750px;
     position: absolute;
 }
 .ho85{
-    left: 65px;
-    bottom: -200px;
+    left: 63px;
+    bottom: -1000px;
     position: absolute;
 }
 .ho86{
-    left: 65px;
-    bottom: -200px;
+    left: 123px;
+    bottom: -1250px;
     position: absolute;
 }
 .ho87{
-    left: 65px;
-    bottom: -200px;
+    left: 73px;
+    bottom: -1500px;
     position: absolute;
 }
 .ho88{
-    left: 65px;
-    bottom: -200px;
+    left: 117px;
+    bottom: -1750px;
     position: absolute;
 }
 .ho89{
-    left: 65px;
-    bottom: -200px;
+    left: 81px;
+    bottom: -2000px;
     position: absolute;
 }
 .ho90{
-    left: 65px;
-    bottom: -200px;
+    left: 120px;
+    bottom: -2100px;
     position: absolute;
 }
 .bienvenida{
