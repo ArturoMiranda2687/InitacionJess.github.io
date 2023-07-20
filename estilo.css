@@ -10,7 +10,7 @@ html{
 body{
     margin: 0;
     border: 0;
-    background: #f5deb3;
+    background: #f5d72c;
     text-align: center;
 }
 h1{
@@ -315,9 +315,20 @@ iframe{
 .separador{
     display: flex;
     width: 80vw;
-    height: 5px;
+    height: 2.5px;
     background: black;
     margin: 0 auto;
+    border-radius: 50%;
+}
+.padrescontenedor{
+    display: flex;
+    flex-direction: row;
+}
+.padresella{
+    display: flex;
+}
+.padresel{
+    display: flex;
 }
 /*.parallax{
     width: 100%;
