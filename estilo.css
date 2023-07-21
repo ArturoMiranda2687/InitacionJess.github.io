@@ -75,19 +75,40 @@ main{
     width: 100%;
     transform: translateZ(3px) scale(0.3);
     transform-origin: 50%;
+    
+    animation: 15s linear 0s infinite alternate rebotea;
 }
 .ho51,.ho52,.ho53,.ho54,.ho55,.ho56,.ho57,.ho58,.ho59,.ho60,.ho61,.ho62,.ho63,.ho64,.ho65,.ho66,.ho67,.ho68,.ho69,.ho70,.ho71,.ho72,.ho73,.ho74,.ho75,.ho76,.ho77,.ho78,.ho79, .ho80{
     height: auto;
     width: 60%;
     transform: translateZ(6px) scale(0.33);
     transform-origin: 50%;
+    
+    animation: 10s linear 10s infinite alternate reboteb;
 }
 .ho81,.ho82,.ho83,.ho84,.ho85,.ho86,.ho87,.ho88,.ho89,.ho90{
     width: 50%;
     transform-origin: 50%;
     transform-style: preserve-3d;
     transform: translateZ(7px) scale(.9);
+    animation: 13s linear 0s infinite alternate rebote;
 }
+@keyframes rebote {
+    to{
+        transform: translatex(50px) scale(.6);
+    }
+}
+@keyframes rebotea {
+    to{
+        transform: translatex(50px) scale(.3);
+    }
+}
+@keyframes reboteb {
+    to{
+        transform: translatex(50px) scale(.1);
+    }
+}
+
 .ho1,.ho2,.ho3,.ho5,.ho6,.ho7,.ho9,.ho10,.ho11,.ho13,.ho14,.ho15,.ho17,.ho18,.ho19,.ho21,.ho22,.ho23,.ho25,.ho26,.ho27,.ho29,.ho30,.ho31,.ho33,.ho34,.ho35,.ho37,.ho38,.ho39,.ho41,.ho42,.ho43,.ho45,.ho46,.ho47,.ho49,.ho50 {
     rotate: 45deg;
 }
