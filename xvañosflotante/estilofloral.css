@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    text-align: center;
+    background: #f9e0ec;
+}
+h1{
+    font-size: 3.6rem;
+}
+.flor{
+    position: absolute;
+}
+.uno{
+    top: 10%;
+    left: 90%;
+    scale: 2;
+}
+.dos{
+    top: 50%;
+    left: 50%;
+}
+.tres{
+    top: 10%;
+    left: 10%;
+}
+.cuatro{
+    top: 75%;
+    left: 75%;
+}
