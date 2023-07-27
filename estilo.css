@@ -9,28 +9,40 @@ html{
     border: 0;
     text-align: center;
     font-family: 'Nanum Myeongjo', serif;
+    background: #eeeeee;
+    color: goldenrod;
 }
 h1{
     font-size: 3.6rem;
-    color: goldenrod;
 }
 h2{
     font-size: 2.8rem;
 }
 p{
-    font-size: 2.8rem;
-}
-a{
     font-size: 2rem;
-    text-decoration: none;
+    color: black;
 }
+
 .botoniniciosep{
-    display: flex;
-    justify-content: space-evenly;
     margin: 0 auto;
 }
 .contenedorinicio{
-    width: 30vw;
+    width: 90vw;
+    margin: 0 auto;
     border: 1px solid goldenrod;
     border-radius: 15px;
+    margin: 5px;
+}
+.botonhome a{
+    color: black;
+    text-decoration: none;
+    font-size: 2rem;
+}
+footer{
+    background: black;
+
+}
+footer p{
+    font-size: 1.4rem;
+    color: goldenrod;
 }
