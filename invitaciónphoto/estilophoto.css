@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
+
+@keyframes fotosscroll {
+    0%{
+
+    }
+    49%{
+        transform: translateX(-180px);
+    }
+    60%{
+        transform: translateX(-180px);
+    }
+    61%{
+        transform: translateX(-180px);
+    }
+    100%{
+        transform: translateX(-360px);
+    }
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+    
+    overflow-x: hidden;
+}
+html{
+    font-size: 62.5%;
+    background: #f1dec1;
+    font-family: 'Rye', cursive;
+    color: #5b1f00;
+}
+body{
+    position: relative;
+    text-align: center;
+}
+h1{
+    font-size: 3.6rem;
+    margin-top: 40PX;
+}
+h2{
+    font-size: 3.2rem;
+    margin-top: 10PX;
+}
+h3{
+    font-size: 2.8rem;
+}
+.fotosinicio{
+    width: 200px;
+    height: 160px;
+    border: 5px solid white;
+    box-shadow:  10px 5px 5px 1px black;
+    background: white;
+    display: flex;
+    margin: 0 auto;
+    overflow-x: hidden;
+    gap: 10px;
+    justify-content: space-between;
+}
+.fotosinicio img{
+    width: 190px;
+    height: 120px;
+    margin-top: 3px;
+    object-fit: cover;
+    display: flex;
+    animation: fotosscroll 20s linear 2s infinite alternate;
+}
+.photo{
+    position: absolute;
+    width: 200px;
+    height: 160px;
+    border: 5px solid white;
+    box-shadow:  10px 5px 5px 1px black;
+    background: white;
+    
+}
+.marco1{
+    top: 50%;
+    left: 70%;
+    z-index: -1;
+    transform: rotate(-45deg);
+}
+.marco1 img{
+    width: 190px;
+    height: 120px;
+    margin-top: 3px;
+    object-fit: cover;
+}
+
+.caja{
+    display: flex;
+    justify-content: space-around;
+    gap: 3px;
+    margin: 20px;
+}
+.reloj{
+    width: 21vw;
+    aspect-ratio: 2/1;
+    border: 5px solid white;
+    box-shadow:  10px 5px 5px 1px black;
+    background: white;
+    margin-bottom: 20px;
+}
+.reloj h3{
+    font-size: 1.6rem;
+}
+.mesaregalos{
+    width: 200px;
+    height: 160px;
+    border: 5px solid white;
+    box-shadow:  10px 5px 5px 1px black;
+    background: white;
+    display: flex;
+    margin: 0 auto;
+
+}
+.mesaregalos div{
+    width: 190px;
+    height: 120px;
+    margin: 3px auto;
+    background: black;
+    display: flex;
+    justify-content: center;
+    
+}
+.mdr{
+    color: white;
+    align-self: center;
+    text-align: center;
+}
+.butasistencia{
+    width: 200px;
+    height: 160px;
+    border: 5px solid white;
+    box-shadow:  10px 5px 5px 1px black;
+    background: white;
+    display: flex;
+    margin: 0 auto;
+}
+.butasistencia{
+    width: 190px;
+    height: 120px;
+    margin: 3px auto;
+    background: black;
+    display: flex;
+    justify-content: center;
+}
