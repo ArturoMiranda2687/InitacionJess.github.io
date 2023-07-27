@@ -1,21 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 
-@keyframes fotosscroll {
-    0%{
+@keyframes cambio {
+    0% {margin-left: 0;}
+    20% {margin-left: 0;}
 
-    }
-    49%{
-        transform: translateX(-180px);
-    }
-    60%{
-        transform: translateX(-180px);
-    }
-    61%{
-        transform: translateX(-180px);
-    }
-    100%{
-        transform: translateX(-360px);
-    }
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+
+    50% {margin-left: -200%;}
+    75% {margin-left: -200%;}
+
+    80% {margin-left: -300%;}
+    100% {margin-left: -300%;}
+    
 }
 
 *{
@@ -28,16 +25,19 @@
 html{
     font-size: 62.5%;
     background: #f1dec1;
-    font-family: 'Rye', cursive;
+    font-family: 'Indie Flower', cursive;
     color: #5b1f00;
 }
 body{
     position: relative;
     text-align: center;
 }
+main{
+    margin: 0 3px;
+}
 h1{
     font-size: 3.6rem;
-    margin-top: 40PX;
+    margin-bottom: 20PX;
 }
 h2{
     font-size: 3.2rem;
@@ -53,18 +53,34 @@ h3{
     box-shadow:  10px 5px 5px 1px black;
     background: white;
     display: flex;
-    margin: 0 auto;
+    margin: 0 auto 20px;
     overflow-x: hidden;
-    gap: 10px;
-    justify-content: space-between;
+    position: relative;
 }
-.fotosinicio img{
-    width: 190px;
-    height: 120px;
-    margin-top: 3px;
-    object-fit: cover;
+.scr{
     display: flex;
-    animation: fotosscroll 20s linear 2s infinite alternate;
+    padding: 0;
+    width: 400%;
+    overflow-x: hidden;
+    animation: cambio 10s infinite alternate-reverse;
+    object-fit: cover;
+    position: absolute;
+}
+.scr img {
+    width: 180px;
+    object-fit: cover;
+}
+.uno{
+    left: 5px;
+}
+.dos{
+    left: 195px;
+}
+.tres{
+    left: 385px;
+}
+.cuatro{
+    left: 575px;
 }
 .photo{
     position: absolute;
@@ -91,12 +107,10 @@ h3{
 .caja{
     display: flex;
     justify-content: space-around;
-    gap: 3px;
-    margin: 20px;
 }
 .reloj{
     width: 21vw;
-    aspect-ratio: 2/1;
+    
     border: 5px solid white;
     box-shadow:  10px 5px 5px 1px black;
     background: white;
@@ -105,6 +119,23 @@ h3{
 .reloj h3{
     font-size: 1.6rem;
 }
+.padrinos{
+    display: flex;
+    justify-content: space-around;
+}
+.fotopadron{
+    width: 40vw;
+    border: 5px solid white;
+    box-shadow:  5px 1px 5px 1px black;
+    background: white;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+.fotopadron img{
+    width: 35vw;
+    aspect-ratio: 2/1;
+    object-fit: cover;
+}
 .mesaregalos{
     width: 200px;
     height: 160px;
@@ -112,7 +143,7 @@ h3{
     box-shadow:  10px 5px 5px 1px black;
     background: white;
     display: flex;
-    margin: 0 auto;
+    margin: 0 auto 20px;
 
 }
 .mesaregalos div{
