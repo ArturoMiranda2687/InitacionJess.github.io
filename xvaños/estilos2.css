@@ -271,4 +271,15 @@ box-shadow:  5px 5px 6px #9d9d9d,
 }
 .reloj p{
     font-size: 2rem;
+    
+
+}
+.return{
+    justify-content: center;
+    display: flex;
+}
+.return a{
+    font-size: 2rem;
+    color: black;
+
 }
