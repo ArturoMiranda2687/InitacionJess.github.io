@@ -28,10 +28,11 @@ html{
     color: goldenrod;
 }
 body{
-    height: 100vh;
+    width: 100vw;
+    height: 100%;
     margin: 0;
     border: 0;
-    background: linear-gradient(rgb(8, 1, 49), rgb(14, 1, 99),rgb(1, 1, 109));
+    background: linear-gradient(rgb(8, 1, 49), rgb(14, 1, 99),rgb(1, 1, 109),rgb(4, 4, 66),rgba(4, 121, 199, 0.918),rgba(210, 234, 250, 0.705));
 }
 h1{
     font-size: 3.6rem;
