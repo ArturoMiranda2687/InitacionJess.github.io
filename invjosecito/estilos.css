@@ -151,6 +151,9 @@ p{
     align-self: center;
     font-weight: bold;
 }
+.fecha2, .fecha3{
+    margin: 0 auto 0 0;
+}
 .contenedorfech{
     display: flex;
     flex-direction: column;
@@ -178,4 +181,10 @@ p{
     box-shadow:  -5px 5px 4px #c6c1b7,
              20px -2px 4px #ffffff83,
              1px 1px .5px rgba(218, 165, 32, 0.637);
+}
+.botonmesaregalos a{
+    text-decoration: none;
+    color: black;
+    margin: auto;
+    font-size: 1.6rem;
 }
