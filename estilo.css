@@ -28,6 +28,7 @@ html{
     color: goldenrod;
 }
 body{
+    position: relative;
     width: 100vw;
     margin: 0;
     border: 0;
@@ -100,14 +101,25 @@ footer p{
 .trece{top: 82%; left: 72%;}
 .catorce{top: 92%; left: 82%;}
 .quince{top: 97%; left: 92%;}
-.aseis{top: 87%; left: 7%;}
-.asiete{top: 77%; left: 17%;}
-.aocho{top: 67%; left: 27%;}
-.anueve{top: 57%; left: 37%;}
-.adiez{top: 47%; left: 47%;}
-.aonce{top: 37%; left: 57%;}
-.adoce{top: 27%; left: 67%;}
-.atrece{top: 17%; left: 87%;}
-.acatorce{top: 7%; left: 97%;}
-.aquince{top: 5%; left: 5%;}
-.adieciseis{top: 15%; left: 15%;}
+.aseis{top: 87%; left: 97%;}
+.asiete{top: 77%; left: 87%;}
+.aocho{top: 67%; left: 77%;}
+.anueve{top: 57%; left: 67%;}
+.adiez{top: 47%; left: 57%;}
+.aonce{top: 37%; left: 47%;}
+.adoce{top: 27%; left: 37%;}
+.atrece{top: 17%; left: 27%;}
+.acatorce{top: 7%; left: 17%;}
+.aquince{top: 95%; left: 5%;}
+.adieciseis{top: 85%; left: 15%;}
+.bseis{top: 75%; left: 25%;}
+.bsiete{top: 85%; left: 35%;}
+.bocho{top: 95%; left: 45%;}
+.bnueve{top: 85%; left: 55%;}
+.bdiez{top: 75%; left: 65%;}
+.bonce{top: 65%; left: 75%;}
+.bdoce{top: 55%; left: 85%;}
+.btrece{top: 49%; left: 95%;}
+.bcatorce{top: 39%; left: 94%;}
+.bquince{top: 29%; left: 84%;}
+.bdieciseis{top: 19%; left: 74%;}
