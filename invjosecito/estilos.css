@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+SC:wght@400;500&family=Dancing+Script&family=Montserrat:wght@100;400;700&family=Pinyon+Script&display=swap');
  :root{
-    --titulo3: 'Alegreya SC', serif; 
-    --titulo2: 'Dancing Script', cursive;
-    --titulo4: 'Montserrat', sans-serif;
     --titulo1: 'Pinyon Script', cursive;
+    --titulo2: 'Dancing Script', cursive;
+    --titulo3: 'Alegreya SC', serif; 
+    --titulo4: 'Montserrat', sans-serif;
  }
 *{
     box-sizing: border-box;
@@ -22,7 +22,7 @@ body {
     width: 100%;
   }
 html{
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--titulo4);
     text-align: center;
 }
 body{
@@ -31,7 +31,7 @@ body{
 main{
     width: 90vw;
     /*height:100%;*/
-    box-shadow: 0 0 1rem 1px rgb(233, 222, 222); 
+    box-shadow: 0 0 1rem 1px rgb(170, 163, 163); 
     border-radius: 5px;
     position: relative;
     z-index: 1;
@@ -63,14 +63,18 @@ h1{
 }
 h2{
     font-size: 3.2rem;
-    font-family: 'Dancing Script', cursive;
+    font-family: var(--titulo2);
     font-weight: 300;
     margin-top: 15px;
     margin-bottom: 5px;
 }
 h3{
     font-size: 2.4rem;
-    font-family: 'Alegreya SC', serif;
+    font-family: var(--titulo3);
+}
+p{
+    font-size: 1.6rem;
+    font-family: var(--titulo4);
 }
 .contenedorinicio{
     justify-content: center;
@@ -102,11 +106,6 @@ h3{
     height: 400px;
     object-fit: cover;
 }
-p{
-    font-size: 2.4rem;
-    font-family: 'Alegreya SC', serif;
-}
-
 .separador{
     width: 40vw;
     height: 2px;
@@ -114,8 +113,7 @@ p{
     background: goldenrod;
     margin: 10px auto 10px;
 }
-
-  .reloj{
+.reloj{
     width: 18vw;
     aspect-ratio: 1/1;
     border-radius: 15px;
@@ -123,10 +121,18 @@ p{
     box-shadow:  -5px 10px 4px #c6c1b7,
              20px -2px 40px #ffffff,
              1px 1px 1px goldenrod;
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .reloj h3{
     font-size: 1.4rem;
+    margin: 0 auto;
+}
+.reloj p{
+    font-size: 2rem;
+    margin: 0 auto;
 }
 .caja{
     display: flex;
@@ -159,4 +165,17 @@ p{
     line-height: 1.6rem;
     kerning: 2rem;
     justify-items: start;
+}
+.conteo{
+    margin-bottom: 10px;
+}
+.botonmesaregalos{
+    width: 50%;
+    height: 20px;
+    border-radius: 45%;
+    margin: 5px auto;
+    background: linear-gradient(45deg, #ffffff80, #c9c9c88f);
+    box-shadow:  -5px 5px 4px #c6c1b7,
+             20px -2px 4px #ffffff83,
+             1px 1px .5px rgba(218, 165, 32, 0.637);
 }
