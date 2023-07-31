@@ -31,10 +31,7 @@ body{
     height: 100vh;
     margin: 0;
     border: 0;
-    background: linear-gradient(rgb(9, 0, 58),rgb(1, 1, 109));
-}
-main{
-    height: 90vh;
+    background: linear-gradient(rgb(8, 1, 49), rgb(14, 1, 99),rgb(1, 1, 109));
 }
 h1{
     font-size: 3.6rem;
@@ -52,10 +49,11 @@ p{
 }
 .contenedorinicio{
     width: 90vw;
+    display: flex;
+    flex-direction: column;
     margin: 0 auto;
     border: 1px solid goldenrod;
     border-radius: 15px;
-    margin: 5px;
 }
 .botonhome a{
     color: rgb(255, 255, 255);
