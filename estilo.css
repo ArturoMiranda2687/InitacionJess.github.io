@@ -1,5 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
 
+@keyframes movimiento {
+    0%{
+
+    }
+    50%{
+        width: 5px;
+        height: 5px;
+        transform: translate(150px, 150px);
+        background: rgba(156, 156, 231, 0.685);
+        box-shadow: 2px 2px 20px #cbdffd;
+    }
+    100%{
+        transform: translate(50px,300px);
+    }
+}
+
 *{
     box-sizing: border-box;
     font-size: 62.5%;
@@ -9,20 +25,28 @@ html{
     border: 0;
     text-align: center;
     font-family: 'Nanum Myeongjo', serif;
-    background: #eeeeee;
     color: goldenrod;
+}
+body{
+    height: 100vh;
+    margin: 0;
+    border: 0;
+    background: linear-gradient(rgb(9, 0, 58),rgb(1, 1, 109));
+}
+main{
+    height: 90vh;
 }
 h1{
     font-size: 3.6rem;
+    margin: 5 auto;
 }
 h2{
     font-size: 2.8rem;
 }
 p{
     font-size: 2rem;
-    color: black;
+    color: rgb(255, 255, 255);
 }
-
 .botoniniciosep{
     margin: 0 auto;
 }
@@ -34,15 +58,49 @@ p{
     margin: 5px;
 }
 .botonhome a{
-    color: black;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     font-size: 2rem;
 }
 footer{
     background: black;
-
+    position: sticky;
 }
 footer p{
     font-size: 1.4rem;
     color: goldenrod;
 }
+.estrella{
+    width: 3px;
+    aspect-ratio: 1/1;
+    background: white;
+    border-radius: 50%;
+    box-shadow: 2px 2px 10px #88b5f8;
+    position: absolute;
+}
+
+.uno{top: 10%; left: 10%;animation: movimiento 10s linear 0s infinite alternate;}
+.dos{top: 20%;left: 20%;}
+.tres{top: 30%;left: 30%;animation: movimiento 15s linear 5s infinite alternate-reverse;}
+.cuatro{top: 40%;left: 40%;}
+.cinco{top: 50%;left: 50%;animation: movimiento 25s linear 10s infinite alternate;}
+.seis{top: 12%; left: 12%;}
+.siete{top: 22%; left: 2%;animation: movimiento 15s linear 15s infinite alternate-reverse;}
+.ocho{top: 32%; left: 22%;}
+.nueve{top: 42%; left: 32%;animation: movimiento 10s linear 20s infinite alternate;}
+.diez{top: 52%; left: 42%;}
+.once{top: 62%; left: 52%;}
+.doce{top: 72%; left: 62%;}
+.trece{top: 82%; left: 72%;}
+.catorce{top: 92%; left: 82%;}
+.quince{top: 97%; left: 92%;}
+.aseis{top: 87%; left: 7%;}
+.asiete{top: 77%; left: 17%;}
+.aocho{top: 67%; left: 27%;}
+.anueve{top: 57%; left: 37%;}
+.adiez{top: 47%; left: 47%;}
+.aonce{top: 37%; left: 57%;}
+.adoce{top: 27%; left: 67%;}
+.atrece{top: 17%; left: 87%;}
+.acatorce{top: 7%; left: 97%;}
+.aquince{top: 5%; left: 5%;}
