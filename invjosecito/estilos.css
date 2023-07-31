@@ -35,7 +35,7 @@ main{
     position: relative;
     z-index: 1;
     background: #ffffff38;
-    margin: 25px auto 5px;
+    margin: 25px auto 25px;
   }
   
   main:before {
@@ -184,6 +184,10 @@ p{
     color: black;
     margin: auto;
     font-size: 1.6rem;
+}
+.volver{
+    height: 20px;
+    margin: 10px auto 20px;
 }
 .volver a{
     font-size: 1.6rem;
