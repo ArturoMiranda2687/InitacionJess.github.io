@@ -29,11 +29,11 @@ html{
 }
 body{
     width: 100vw;
-    height: 100%;
     margin: 0;
     border: 0;
-    background: linear-gradient(rgb(8, 1, 49), rgb(14, 1, 99),rgb(1, 1, 109),rgb(4, 4, 66),rgba(4, 121, 199, 0.918),rgba(210, 234, 250, 0.705));
+    background: linear-gradient(rgb(8, 1, 49), rgb(14, 1, 99),rgb(1, 1, 109),rgb(4, 4, 66),rgba(4, 121, 199, 0.918),rgba(146, 166, 179, 0.795));
 }
+
 h1{
     font-size: 3.6rem;
     margin: 5 auto;
@@ -70,7 +70,7 @@ p{
 }
 footer{
     background: black;
-    position: sticky;
+    height: 30px;
 }
 footer p{
     font-size: 1.4rem;
@@ -110,3 +110,4 @@ footer p{
 .atrece{top: 17%; left: 87%;}
 .acatorce{top: 7%; left: 97%;}
 .aquince{top: 5%; left: 5%;}
+.adieciseis{top: 15%; left: 15%;}
