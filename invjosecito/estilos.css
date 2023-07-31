@@ -19,7 +19,7 @@ body {
     display: grid;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    width: 100vw;
   }
 html{
     font-family: 'Montserrat', sans-serif;
@@ -43,19 +43,36 @@ h3{
     font-size: 2.4rem;
     font-family: 'Alegreya SC', serif;
 }
-.nombres{
+.contenedorinicio{
+    justify-content: center;
     display: flex;
+}
+.centrador{
+    position: relative;
+    display: flex;
+    justify-items: center;
+    margin: 0 auto;
+    align-content: center;
+    width: 100vw;
+    height: 150px;
+}
+.nombres{
+    position: absolute;
+    display: flex;
+    justify-items:  center;
     align-items: center;
-    justify-content:  center;
-    margin-top: 5px;
-    height: 100%;
+}
+.nombrebod{
+    position: absolute;
+    
 }
 .circulo{
-    top: -5%;
-    width: 150px;
+    position: absolute;
+}
+.circulo img{
+    position: absolute;
+    width: 250px;
     aspect-ratio: 1/1;
-    border-radius: 50%;
-    border: 1px solid green;
 }
 .imgpres img{
     border-radius: 15px;
@@ -67,11 +84,7 @@ p{
     font-size: 2.4rem;
     font-family: 'Alegreya SC', serif;
 }
-.centrador{
-    display: flex;
-    justify-content: center;
-    margin: 0 auto;
-}
+
 .separador{
     width: 40vw;
     height: 2px;

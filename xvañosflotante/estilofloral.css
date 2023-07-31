@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;500&family=Montserrat:wght@300&display=swap');
 *{
     box-sizing: border-box;
 }
@@ -12,15 +13,24 @@ html{
 body{
     margin: 0;
     border: 0;
+    font-family: 'Montserrat', sans-serif;
 }
 h1{
-    position: absolute;
     font-size: 3.6rem;
+    font-family: 'Dosis', sans-serif;
     text-shadow: 1px 1px 2px  rgb(153, 100, 2) , -1px -1px 3px rgb(184, 84, 2);
     bottom: -2%;
 }
+h2{
+    font-size: 3.2rem;
+    font-family: 'Dosis', sans-serif;
+}
+h3{
+    font-size: 2.8rem;
+    font-family: 'Dosis', sans-serif;
+}
 p{
-    font-size: 2rem;
+    font-size: 1.6rem;
 }
 section{
     width: 100vw;
@@ -39,62 +49,41 @@ section{
 #seccion3{
     background-image: url(https://cpad.ask.fm/426/197/486/-269996986-1tdr1ro-2d8ep8547533mf/original/file.jpg);
 }
+#seccion4{
+    background-image: url(https://pm1.aminoapps.com/6512/bca4c9c55c914b8a5ae6ff9dc24c1aa2ac8c80f2_hq.jpg);
+}
+#seccion5{
+    background-image: url(https://i.pinimg.com/originals/1f/e6/3b/1fe63b79e6ea53d9cfb4eb158df16b15.jpg);
+}
+#seccion6{
+    background-image: url(https://i.pinimg.com/originals/06/6e/46/066e4669b1e9ae537f38cc85aad24f0c.jpg);
+}
+#seccion7{
+    background-image: url(https://media.taringa.net/knn/fit:550/Z3M6Ly9rbjMvdGFyaW5nYS8xLzgvQy82L0QvMy90aGVyZXh5cy81MTIuanBn);
+}
+#seccion8{
+    background-image: url(https://media.taringa.net/knn/fit:550/Z3M6Ly9rbjMvdGFyaW5nYS84LzkvQS9FL0UvNi90aGVyZXh5cy81NDAuanBn);
+}
 img{
     width: 50vw;
 }
-/*.wrapper{
-    width: 100vw;
-    height: 500px;
-    overflow-y: auto;
-    overflow-x: hidden;
-    perspective: 10px;
-}
-.conti{
-    position: relative;
+.caja{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    transform-style: preserve-3d;
-    z-index: -1;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
-.background, .foreground{
-    position: absolute;
-    width: 100vw;
-    height: auto;
-    object-fit: cover;
-    z-index: -1;
+.mesa{
+    width: 90vw;
+    height: 30px;
+    border-radius: 45px;
+    border: 1px solid gray;
+    display: flex;
+    margin: 0 auto 10px;
 }
-.background{
-    transform: translateZ(-10px) scale(2.5);
+.mesa a{
+    margin: 0 auto;
+    align-self: center;
 }
-.foreground{
-    transform: translateZ(-5px) scale(.2);
-    bottom: -10%;
-}
-.invite{
-    background: white;
-    z-index: 0;
-    bottom: -170%;
-}
-
-.flor{
-    position: absolute;
-}
-.uno{
-    top: 10%;
-    left: 90%;
-    scale: 2;
-}
-.dos{
-    top: 50%;
-    left: 50%;
-}
-.tres{
-    top: 10%;
-    left: 10%;
-}
-.cuatro{
-    top: 75%;
-    left: 75%;
+.regreso a{
+    font-size: 2.8rem;
 }
