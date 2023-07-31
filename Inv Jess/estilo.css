@@ -581,8 +581,8 @@ main{
     margin: 15px auto;
     border-radius: 48px;
     background: #F7F1E5;
-    box-shadow:  -20px -20px 32px #b2aea5,
-             20px 20px 32px #ffffff;
+    box-shadow:  -5px 10px 4px #c6c1b7,
+             20px -2px 40px #ffffff;
     border: 0;
 }
 .mregalos:hover{
@@ -600,9 +600,8 @@ iframe{
     border: 0;
     border-radius: 15px;
     background: #F7F1E5;
-    box-shadow: -20px -20px 29px #63605c,
-                20px 20px 29px #ffffff;
-    width: 360px;
+    box-shadow:  -5px 10px 4px #c6c1b7,
+             20px -2px 40px #ffffff;
     margin: 15px auto;
     
 }
@@ -632,20 +631,21 @@ iframe{
     aspect-ratio: 1/1;
     border-radius: 15px;
     object-fit: cover;
+    /*object-fit: cover;
     background: #F7F1E5;
     box-shadow:  -7px -7px 8px #b2aea5,
              7px 7px 8px #ffffff;
-    border: 0;
+    border: 0;*/
 }
 .papa img{
     width: 180px;
     aspect-ratio: 1/1;
     border-radius: 15px;
     object-fit: cover;
-    background: #F7F1E5;
+    /*background: #F7F1E5;
     box-shadow:  -7px -7px 8px #b2aea5,
              7px 7px 8px #ffffff;
-    border: 0;
+    border: 0;*/
 }
 .nompap{
     font-size: 2.4rem;
@@ -656,8 +656,8 @@ iframe{
     aspect-ratio: 1/1;
     border-radius: 48px;
     background: linear-gradient(45deg, #ded9ce, #fffff5);
-    box-shadow:  20px -20px 40px #c6c1b7,
-             -20px 20px 40px #ffffff;
+    box-shadow:  -5px 10px 4px #c6c1b7,
+             20px -2px 40px #ffffff;
 }
 .reloj h3{
     font-size: 1.6rem;
@@ -670,8 +670,8 @@ iframe{
 .butconfir{
     border-radius: 15px;
     background: #F7F1E5;
-    box-shadow:  -7px -7px 8px #b2aea5,
-             7px 7px 8px #ffffff;
+    box-shadow:  -5px 10px 4px #c6c1b7,
+             20px -2px 40px #ffffff;
     border: 0;
     width: 90vw;
     height: 30px;
@@ -696,7 +696,7 @@ iframe{
     object-fit: cover;
     border-radius: 15px;
     background: #F7F1E5;
-    box-shadow:  -7px -7px 8px #b2aea5,
-             7px 7px 8px #ffffff;
+    box-shadow:  -5px 10px 4px #c6c1b7,
+             20px -2px 40px #ffffff;
     border: 0;
 }
