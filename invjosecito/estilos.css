@@ -87,6 +87,7 @@ p{
 }
 .nombrebod{
     display: flex;
+    line-height: 4rem;
 }
 .circulo{
     position: absolute;
@@ -192,4 +193,17 @@ p{
 .volver a{
     font-size: 1.6rem;
     margin: 15px auto 25px auto;
+}
+.itinerario img{
+    width: 30px;
+    aspect-ratio: 1/1;
+}
+.codvest{
+    display: flex ;
+    justify-content: center;
+    gap: 5px;
+}
+.codvest img{
+    width: 40vw;
+    object-fit: cover;
 }

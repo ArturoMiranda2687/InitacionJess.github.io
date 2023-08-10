@@ -36,8 +36,8 @@ body{
 }
 
 h1{
-    font-size: 3.6rem;
-    margin: 5 auto;
+    font-size: .000006rem;
+    margin: 0 auto;
 }
 h2{
     font-size: 2.8rem;
@@ -48,6 +48,9 @@ h3{
 p{
     font-size: 2rem;
     color: rgb(255, 255, 255);
+}
+.titulo img{
+    width: 90vw;
 }
 .botoniniciosep{
     margin: 0 auto;
