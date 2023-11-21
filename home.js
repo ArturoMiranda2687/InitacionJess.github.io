@@ -26,6 +26,7 @@ for (let i = 1; i <= cantidadEstrellas; i++) {
 
 const botones = [
     { nombre: "Invitación Jess", ruta: "./Inv Jess/invjess.html" },
+    { nombre: "Invitación Jessy", ruta: "./Inv Jessy/inicio.html" },
     { nombre: "Invitación Polaroid", ruta: "./invitaciónphoto/inicio.html" },
     { nombre: "Invitación Josecito", ruta: "./invjosecito/inicio.html" },
     { nombre: "Invitación Arturo", ruta: "./invarturo/inicio.html" }

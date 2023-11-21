@@ -104,3 +104,6 @@ footer p{
 .animacionEstrella{
     animation: movimiento 10s linear infinite alternate;
 }
+.oculto{
+    display: none;
+}
