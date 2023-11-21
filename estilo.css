@@ -2,24 +2,7 @@
 
 @keyframes movimiento {
 
-    0% {
-        width: 20px;
-        height: 20px;
-        transform: translate(0, 0);
-    }
-    50% {
-        width: 5px;
-        height: 5px;
-        transform: translate(150px, 150px);
-        background: rgba(156, 156, 231, 0.685);
-        box-shadow: 2px 2px 20px #cbdffd;
-    }
-    100% {
-        transform: translate(50px, 300px);
-    }
-}
-
-    /*0%{
+    0%{
 
     }
     50%{
@@ -32,7 +15,7 @@
     100%{
         transform: translate(50px,300px);
     }
-}*/
+}
 
 *{
     box-sizing: border-box;
@@ -73,7 +56,7 @@ p{
 .botoniniciosep{
     margin: 0 auto;
 }
-.contenedorinicio{
+.contenedorinicio, .contenedorinicio2{
     width: 90vw;
     display: flex;
     flex-direction: column;
@@ -98,54 +81,6 @@ footer p{
     font-size: 1.4rem;
     color: goldenrod;
 }
-/*.estrella{
-    width: 3px;
-    aspect-ratio: 1/1;
-    background: white;
-    border-radius: 50%;
-    box-shadow: 2px 2px 10px #88b5f8;
-    position: absolute;
-}
-
-.uno{top: 10%; left: 10%;animation: movimiento 10s linear 0s infinite alternate;}
-.dos{top: 20%;left: 20%;}
-.tres{top: 30%;left: 30%;animation: movimiento 15s linear 5s infinite alternate-reverse;}
-.cuatro{top: 40%;left: 40%;}
-.cinco{top: 50%;left: 50%;animation: movimiento 25s linear 10s infinite alternate;}
-.seis{top: 12%; left: 12%;}
-.siete{top: 22%; left: 2%;animation: movimiento 15s linear 15s infinite alternate-reverse;}
-.ocho{top: 32%; left: 22%;}
-.nueve{top: 42%; left: 32%;animation: movimiento 10s linear 20s infinite alternate;}
-.diez{top: 52%; left: 42%;}
-.once{top: 62%; left: 52%;}
-.doce{top: 72%; left: 62%;}
-.trece{top: 82%; left: 72%;}
-.catorce{top: 92%; left: 82%;}
-.quince{top: 97%; left: 92%;}
-.aseis{top: 87%; left: 97%;}
-.asiete{top: 77%; left: 87%;}
-.aocho{top: 67%; left: 77%;}
-.anueve{top: 57%; left: 67%;}
-.adiez{top: 47%; left: 57%;}
-.aonce{top: 37%; left: 47%;}
-.adoce{top: 27%; left: 37%;}
-.atrece{top: 17%; left: 27%;}
-.acatorce{top: 7%; left: 17%;}
-.aquince{top: 95%; left: 5%;}
-.adieciseis{top: 85%; left: 15%;}
-.bseis{top: 75%; left: 25%;}
-.bsiete{top: 85%; left: 35%;}
-.bocho{top: 95%; left: 45%;}
-.bnueve{top: 85%; left: 55%;}
-.bdiez{top: 75%; left: 65%;}
-.bonce{top: 65%; left: 75%;}
-.bdoce{top: 55%; left: 85%;}
-.btrece{top: 49%; left: 95%;}
-.bcatorce{top: 39%; left: 94%;}
-.bquince{top: 29%; left: 84%;}
-.bdieciseis{top: 19%; left: 74%;}/*
-
-/* Tu estilo actual */
 
 .estrellas-container {
     position: fixed;
@@ -168,10 +103,10 @@ footer p{
 
 /* Puedes ajustar la cantidad de estrellas según tus necesidades */
 .estrella:nth-child(1) { top: 10%; left: 20%; }
-.estrella:nth-child(2) { top: 20%; left: 50%; }
+.estrella:nth-child(2) { top: 20%; left: 50%; animation: movimiento 10s linear infinite alternate;}
 .estrella:nth-child(3) { top: 30%; left: 80%; }
 .estrella:nth-child(4) { top: 40%; left: 30%; }
-.estrella:nth-child(5) { top:50%; left: 60%; }
+.estrella:nth-child(5) { top: 50%; left: 60%; }
 .estrella:nth-child(6) { top: 60%; left: 90%; }
 .estrella:nth-child(7) { top: 70%; left: 10%; }
 .estrella:nth-child(8) { top: 80%; left: 60%; }
@@ -179,9 +114,30 @@ footer p{
 .estrella:nth-child(10) { top: 15%; left: 90%; }
 .estrella:nth-child(11) { top: 25%; left: 30%; }
 .estrella:nth-child(12) { top: 35%; left: 70%; }
-.estrella:nth-child(13) { top: 45%; left: 60%; }
+.estrella:nth-child(13) { top: 45%; left: 60%; animation: movimiento 20s linear infinite alternate;}
 .estrella:nth-child(14) { top: 55%; left: 40%; }
-.estrella:nth-child(15) { top:65%; left: 250%; }
-.estrella:nth-child(16) { top: 75%; left:35%; }
+.estrella:nth-child(15) { top: 65%; left: 50%; }
+.estrella:nth-child(16) { top: 75%; left: 35%; }
+.estrella:nth-child(17) { top: 85%; left: 18%; }
+.estrella:nth-child(18) { top: 95%; left: 52%; }
+.estrella:nth-child(19) { top: 13%; left: 78%; }
+.estrella:nth-child(20) { top: 23%; left: 82%; animation: movimiento 25s linear infinite alternate;}
+.estrella:nth-child(21) { top: 33%; left: 38%; }
+.estrella:nth-child(22) { top: 43%; left: 57%; }
+.estrella:nth-child(23) { top: 53%; left: 73%; }
+.estrella:nth-child(24) { top: 63%; left: 27%; }
+.estrella:nth-child(25) { top: 73%; left: 63%; }
+.estrella:nth-child(26) { top: 83%; left: 92%; }
+.estrella:nth-child(27) { top: 93%; left: 64%; }
+.estrella:nth-child(28) { top: 17%; left: 34%; }
+.estrella:nth-child(29) { top: 27%; left: 28%; }
+.estrella:nth-child(30) { top: 37%; left: 49%; }
+.estrella:nth-child(31) { top: 47%; left: 76%; }
+.estrella:nth-child(32) { top: 57%; left: 67%; }
+.estrella:nth-child(33) { top: 67%; left: 74%; }
+.estrella:nth-child(34) { top: 77%; left: 84%; }
+.estrella:nth-child(35) { top: 87%; left: 97%; }
+.estrella:nth-child(36) { top: 97%; left: 45%; animation: movimiento 18s linear infinite alternate;}
+.estrella:nth-child(37) { top: 14%; left: 78%; }
 
 /* ... Añade más reglas según sea necesario */
