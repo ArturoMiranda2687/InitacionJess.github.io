@@ -2,14 +2,26 @@ const contestrellas = document.querySelector('.estrellas-container')
 const contenedorInicio = document.querySelector('.contenedorinicio')
 const contenedorInicio2 = document.querySelector('.contenedorinicio2')
 
-for (let i = 0; i < 37; i++) {
-    let estrella = document.createElement("div");
+const cantidadEstrellas = 200;
+
+for (let i = 1; i <= cantidadEstrellas; i++) {
+    let estrella = document.createElement('div');
     estrella.classList.add('estrella');
+
+    const top = Math.random() * 100;
+    const left = Math.random() * 100;
+
+    estrella.style.top = `${top}%`;
+    estrella.style.left = `${left}%`;
+
+    const randomValue = Math.random();
+
+    if (randomValue < 0.05) {
+        estrella.classList.add('animacionEstrella');
+    }
+
     contestrellas.appendChild(estrella);
 }
-
-
-
 
 
 const botones = [
